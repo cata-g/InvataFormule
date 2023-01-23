@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/scortext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="casual"
+        android:text="323031"
+        android:textColor="#323031"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/imagineTitlu"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="175dp"
+        android:fontFamily="casual"
+        android:src="@drawable/math"
+        android:layout_gravity="center"
+        android:textColor="#323031"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/intrebare"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:fontFamily="casual"
+        android:text="∫x²√ⁿ "
+        android:gravity="center"
+        android:textColor="#323031"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/raspuns1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="raspuns"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/raspuns2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="raspuns"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/raspuns3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="raspuns"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/raspuns4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+</LinearLayout>

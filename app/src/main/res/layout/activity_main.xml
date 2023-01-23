@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:fontFamily="casual"
+        android:src="@drawable/logo"
+        android:textAlignment="center"
+        android:textColor="#323031"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+
+        >
+        <Button
+        android:id="@+id/integraleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Integrale"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+        <Button
+            android:id="@+id/derivateId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Derivate"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+        <Button
+            android:id="@+id/trigonometrieId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trigonometrie"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            /></LinearLayout>
+
+
+</LinearLayout>
