@@ -16,8 +16,5 @@ This is an Android app created in Android Studio that allows users to learn and 
 ## Getting Started
 To use the app, simply download the repository and open it in Android Studio. Then, run the app on an emulator or physical device.
 
-## Time Taken
-This project was completed in approximately 4 hours.
-
 ## Contributing
 If you would like to contribute to this project, please feel free to
